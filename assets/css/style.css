@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2354;;
+}
+.navbar{
+    background-color: rgb(161, 125, 194);
+
+}
+
+.logo img{
+    width: 70px;
+}
+
+
+.navbar a{
+    color: rgb(46, 42, 42) !important;
+    font-size: 25px;
+    text-shadow: 0 0 5px #6e4545;
+    text-transform: capitalize;
+}
+
+.navbar span{
+    color: black  ;
+}
+.nav-link:hover{
+    color: aqua !important;
+}
+
+.carousel-item img{
+    width: 100%!important;
+    height:calc(100vh - 150px);
+
+}
+
+.carousel-indicators li{
+    background-color: rgba(98, 3, 143, 0.719);
+}
+
+.main{
+    background-image: url(../images/fondo-spa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.col-sm-3 ul a{
+    background-color: rgba(220, 43, 226, 0.178) !important;
+}
+
+.col-sm-3 ul a:hover{
+    background-color: rgba(6, 87, 163, 0.76) !important;
+    color: black !important;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.nosotros{
+    background-image: url(/assets/images/dolor-de-espalda.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: right;
+
+}
+
+
+.right{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #000;
+    background-color: rgba(161, 125, 194, 0.233);
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: flex-start;
+
+}
+.right h2{
+    color: #000;
+    text-transform: capitalize;
+
+}
+
+.right p{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #fff;
+}
+
+.bottom{
+    color: antiquewhite;
+    background-color: #461815b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    text-transform: capitalize;
+    text-align: center ;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 20%;
+}
+
+.bottom:hover{
+    transform: scale(1.05);
+    transition: all 0.9s ease;
+    background-color: #ffffff00;
+    color: #000;
+    border: 5px solid#fff;
+    box-shadow: 0 0 5px #b9099c;
+}
+
+.formulario{
+    width: 100%;
+    max-width: 600px;
+    background-color: #2354;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000;
+}
+
+.formulario h3{
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.formulario input{
+    width: 90%;
+    background-color: rgba(177, 127, 211, 0.267);
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formulario select{
+
+    background-color: rgba(177, 127, 211, 0.267) ;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.formulario input:focus{
+    color: #000;
+    width: 90%;
+    background-color: rgba(223, 100, 186, 0.267);
+    border: #fff;
+    box-shadow: 0 0 10px#e71ac5;
+}
+.formulario select:focus{
+
+    color: #000;
+    width: 90%;
+    background-color: rgba(223, 100, 186, 0.267);
+    border: #fff;
+    box-shadow: 0 0 10px#e71ac5;
+}
+
+#programar{
+    width: 200px !important;
+}
+
+#quienes-somos {
+    background-color: rgba(0, 255, 255, 0.096);
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+#servicios {
+    background-color: rgba(0, 255, 98, 0.096);
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+#equipo-spa {
+    background-color: rgba(0, 255, 0, 0.096);
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+#section4 {
+    background-color: rgba(157, 255, 0, 0.096);
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    .left{
+        width: 50%;
+        height: auto;
+    }
+
+    .right{
+        width: 50%;
+    }
+    }
