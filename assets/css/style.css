@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #2354;;
+    background-color: #2354;
+
+}
+html{
+    scroll-behavior: smooth ;
 }
 .navbar{
     background-color: rgb(161, 125, 194);
@@ -46,16 +50,6 @@ body{
     background-size: cover;
 }
 
-.col-sm-3 ul a{
-    background-color: rgba(220, 43, 226, 0.178) !important;
-}
-
-.col-sm-3 ul a:hover{
-    background-color: rgba(6, 87, 163, 0.76) !important;
-    color: black !important;
-    transition: 0.5s;
-    transform: scale(1.1);
-}
 
 .nosotros{
     background-image: url(/assets/images/dolor-de-espalda.jpg);
@@ -117,15 +111,17 @@ body{
 }
 
 .formulario{
+    margin: auto;
     width: 100%;
     max-width: 600px;
     background-color: #2354;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     border: 5px solid #000;
+
 }
 
 .formulario h3{
@@ -167,31 +163,100 @@ body{
     box-shadow: 0 0 10px#e71ac5;
 }
 
+.col-sm-3 ul a{
+    margin-top: 20PX;
+    background-color: rgba(220, 43, 226, 0.178) !important;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 5px #26af0ad5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+
+}
+
+.col-sm-3 ul a:hover{
+    background-color: rgba(6, 87, 163, 0.76) !important;
+    color: black !important;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+.col-sm-9 h1{
+    text-transform: capitalize;
+
+}
+
 #programar{
     width: 200px !important;
 }
 
-#quienes-somos {
+#masajes-corporales {
     background-color: rgba(0, 255, 255, 0.096);
     color: black;
     text-shadow: 0 0 5px #fff;
 }
-#servicios {
+#unas-esculpidas {
     background-color: rgba(0, 255, 98, 0.096);
     color: black;
     text-shadow: 0 0 5px #fff;
 }
-#equipo-spa {
+#depilacion-laser {
     background-color: rgba(0, 255, 0, 0.096);
     color: black;
     text-shadow: 0 0 5px #fff;
 }
-#section4 {
+#reiki {
     background-color: rgba(157, 255, 0, 0.096);
     color: black;
     text-shadow: 0 0 5px #fff;
 }
 
+#acupuntura {
+    background-color: rgba(157, 255, 0, 0.096);
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+
+.main-contacto{
+    background-image: url(../images/mandala-.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.main-contacto h2{
+    text-align: center;
+    padding: auto;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #d4d0d0;
+    text-shadow: 0 0 5px #e71ac542;
+}
+
+.main-contacto p{
+    margin: 5px 40px 20px 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #d4d0d0;
+}
+
+.google-maps iframe{
+    margin: 10px  0 10px 20px;
+    box-sizing: border-box !important;
+    width: 300px !important;
+    height: 350 !important;
+    box-shadow:0 0 5px #b9099c;
+    align-items: center;
+}
 
 
 @media only screen and (min-width:768px) {
@@ -204,3 +269,4 @@ body{
         width: 50%;
     }
     }
+
